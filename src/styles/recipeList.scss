@@ -1,6 +1,6 @@
 $mainColor: #664826;
 #recipeList {
-  min-height: 500px;
+  min-height: 450px;
   background: rgba(157, 127, 93,.8) url('../assets/hot.png');
   background-repeat: no-repeat;
   background-size: 600px;
@@ -13,7 +13,7 @@ $mainColor: #664826;
 }
 .recipeListScroll {
   overflow-x: scroll;
-  max-height: 350px;
+  max-height: 310px;
   
 }
 li:nth-child(1){
@@ -41,14 +41,7 @@ li:nth-child(1){
   color:#DED8C8;
 
 }
-.right { //materialize native class
-  position: absolute;
-  right:17%;
-}
-.rightNextTo { //materialize native class
-  position: absolute;
-  right:23%;
-}
+
 .recipeListHeader {
   border-bottom:none !important;
   background-color: rgba(157, 127, 93,.0) !important;
