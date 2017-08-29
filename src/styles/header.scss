@@ -9,9 +9,10 @@ $mainColor: #664826;
 body {
   background-image: url('https://static.pexels.com/photos/15964/pexels-photo.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  height:100vh;
+  height:100%;
   max-width:1920px;
-  background-position: center;
 }
 #header {
   background-color: rgba(224, 220, 215, .6);
