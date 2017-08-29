@@ -9,7 +9,7 @@ $mainColor: #664826;
   padding: 20px 0 20px 0;
   z-index: 1;
   position:relative;
-
+  
 }
 .recipeListScroll {
   overflow-x: scroll;
@@ -50,13 +50,14 @@ li:nth-child(1){
   transform: scale(1.2,1.2);
   color:#DED8C8;
 }
-@media (max-width:600px) {
-  .right { //materialize native class
-    position: absolute;
-    right:8%;
+@media (max-width:1020px) {
+  #recipeList{
+    margin-bottom: 50px;
   }
-  .rightNextTo { //materialize native class
-    position: absolute;
-    right:16%;
+}
+@media (max-width:630px) {
+  #recipeList{
+    margin-bottom: 100px;
   }
+
 }
