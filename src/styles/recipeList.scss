@@ -1,0 +1,69 @@
+$mainColor: #664826;
+#recipeList {
+  min-height: 500px;
+  background: rgba(157, 127, 93,.8) url('../assets/hot.png');
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: right -100px bottom -60px;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.6);
+  padding: 20px 0 20px 0;
+  z-index: 1;
+  position:relative;
+
+}
+.recipeListScroll {
+  overflow-x: scroll;
+  max-height: 350px;
+  
+}
+li:nth-child(1){
+  border-top: none !important;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.topBorder {
+  border-top: 2px solid #DED8C8 !important;
+  padding:5px;
+}
+.ingListCol {
+  border-right: 2px solid #DED8C8 !important;
+}
+#recipeL {
+  border: solid 1px rgba(0,0,0,.0);
+  box-shadow: 0 0 14px 3px rgba(0,0,0,.6);
+
+}
+
+.recipeDrop {
+  background-color: rgba(157, 127, 93,.5);
+  border-bottom: none !important;
+  color:#DED8C8;
+
+}
+.right { //materialize native class
+  position: absolute;
+  right:17%;
+}
+.rightNextTo { //materialize native class
+  position: absolute;
+  right:23%;
+}
+.recipeListHeader {
+  border-bottom:none !important;
+  background-color: rgba(157, 127, 93,.0) !important;
+}
+.hoverPop:hover {
+  transform: scale(1.2,1.2);
+  color:#DED8C8;
+}
+@media (max-width:600px) {
+  .right { //materialize native class
+    position: absolute;
+    right:8%;
+  }
+  .rightNextTo { //materialize native class
+    position: absolute;
+    right:16%;
+  }
+}

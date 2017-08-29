@@ -1,0 +1,38 @@
+#ingAddWrap{
+  text-align: center;
+
+}
+#ingAdd {
+  margin-top: 20px;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid lightgreen !important;
+  box-shadow: 0 1px 0 0 lightgreen !important;
+}
+ .input-field input:focus + label {
+   color:lightgreen !important
+ }
+.d{
+  border-right: 2px lightgreen solid;
+  height:35px !important;
+
+}
+#ingList tr {
+  font-size:  20px !important;
+  height:0px !important;
+
+}
+.padLeft {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.removeX{
+  margin-left:5px;
+  color:red;
+  user-select: none;
+  position: relative;
+  z-index: -1
+}
+.remove{
+  cursor: pointer;
+}

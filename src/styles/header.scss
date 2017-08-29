@@ -1,0 +1,83 @@
+$mainColor: #664826;
+* {
+  margin:0;
+}
+.container {
+  z-index:0 ;
+
+}
+body {
+  background-image: url('https://static.pexels.com/photos/15964/pexels-photo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width:1920px;
+}
+#header {
+  background-color: rgba(224, 220, 215, .6);
+  color:$mainColor;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.6);
+  height:200px;
+  z-index: 2;
+  position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.headerTitle {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  float:left;
+}
+#imgHolder {
+  margin:0 auto;
+  width:120px;
+  height:80px;
+  float: left;
+  margin-top: 10px;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../assets/BoilingPot.png')
+}
+
+
+
+
+
+
+@media (max-width:800px){
+  .headerTitle {
+    font-size: 60px;
+  }
+  #imgHolder {
+    width:100px;
+    height:70px;
+  }
+}
+@media (max-width:630px){
+  .headerTitle {
+    font-size: 45px;
+  }
+  #imgHolder {
+    width:70px;
+    height:50px;
+  }
+  #header{
+    height:100px;
+  }
+}
+
+@media (max-width:450px){
+  .headerTitle {
+    font-size: 35px;
+  }
+  #imgHolder {
+    width:55px;
+    height:38px;
+  }
+
+}
