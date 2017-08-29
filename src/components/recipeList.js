@@ -19,10 +19,9 @@ const RecipeList = (props)=> {
 
     return (<li key={index}>
             <div  className="collapsible-header recipeListHeader">
-              <i className="material-icons">whatshot</i>
-                {item.recipeName}
-              <i onClick={props.showEditModal} href="#modal2" id={index} className="material-icons modal-trigger rightNextTo hoverPop">mode_edit</i>
-              <i onClick={props.removeRecipe} data-removeBtnIndex={index} className="material-icons right hoverPop">close</i>
+              <i onClick={props.removeRecipe} data-removeBtnIndex={index} className="material-icons  hoverPop">close</i>
+              <i onClick={props.showEditModal} href="#modal2" id={index} className="material-icons modal-trigger  hoverPop">mode_edit</i>
+              {item.recipeName}
             </div>
             <div className="collapsible-body recipeDrop">
               <div className="row">
